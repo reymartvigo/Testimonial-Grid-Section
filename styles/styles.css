@@ -1,0 +1,408 @@
+main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 1rem;
+  padding: 4rem 1.5rem;
+}
+main .first-section {
+  background-color: hsl(263deg, 55%, 52%);
+}
+main section {
+  box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.1);
+  padding: 0 2em 1.5rem;
+  border-radius: 0.7rem;
+}
+main section h2 {
+  font-size: 1.1rem;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+main section .first-container {
+  background: url(../image/bg-pattern-quotation.svg) no-repeat;
+  background-position: right top;
+}
+main section .first-container,
+main section .second-container,
+main section .third-container,
+main section .fourth-container,
+main section .forth-container,
+main section .fifth-container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  gap: 1rem;
+}
+main section .first-container .profile,
+main section .first-container .profile2,
+main section .first-container .profile3,
+main section .first-container .profile4,
+main section .first-container .profile5,
+main section .second-container .profile,
+main section .second-container .profile2,
+main section .second-container .profile3,
+main section .second-container .profile4,
+main section .second-container .profile5,
+main section .third-container .profile,
+main section .third-container .profile2,
+main section .third-container .profile3,
+main section .third-container .profile4,
+main section .third-container .profile5,
+main section .fourth-container .profile,
+main section .fourth-container .profile2,
+main section .fourth-container .profile3,
+main section .fourth-container .profile4,
+main section .fourth-container .profile5,
+main section .forth-container .profile,
+main section .forth-container .profile2,
+main section .forth-container .profile3,
+main section .forth-container .profile4,
+main section .forth-container .profile5,
+main section .fifth-container .profile,
+main section .fifth-container .profile2,
+main section .fifth-container .profile3,
+main section .fifth-container .profile4,
+main section .fifth-container .profile5 {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+main section .first-container .profile img,
+main section .first-container .profile2 img,
+main section .first-container .profile3 img,
+main section .first-container .profile4 img,
+main section .first-container .profile5 img,
+main section .second-container .profile img,
+main section .second-container .profile2 img,
+main section .second-container .profile3 img,
+main section .second-container .profile4 img,
+main section .second-container .profile5 img,
+main section .third-container .profile img,
+main section .third-container .profile2 img,
+main section .third-container .profile3 img,
+main section .third-container .profile4 img,
+main section .third-container .profile5 img,
+main section .fourth-container .profile img,
+main section .fourth-container .profile2 img,
+main section .fourth-container .profile3 img,
+main section .fourth-container .profile4 img,
+main section .fourth-container .profile5 img,
+main section .forth-container .profile img,
+main section .forth-container .profile2 img,
+main section .forth-container .profile3 img,
+main section .forth-container .profile4 img,
+main section .forth-container .profile5 img,
+main section .fifth-container .profile img,
+main section .fifth-container .profile2 img,
+main section .fifth-container .profile3 img,
+main section .fifth-container .profile4 img,
+main section .fifth-container .profile5 img {
+  width: 2.5rem;
+  -webkit-clip-path: circle(50%);
+          clip-path: circle(50%);
+}
+main section .first-container .profile aside,
+main section .first-container .profile2 aside,
+main section .first-container .profile3 aside,
+main section .first-container .profile4 aside,
+main section .first-container .profile5 aside,
+main section .second-container .profile aside,
+main section .second-container .profile2 aside,
+main section .second-container .profile3 aside,
+main section .second-container .profile4 aside,
+main section .second-container .profile5 aside,
+main section .third-container .profile aside,
+main section .third-container .profile2 aside,
+main section .third-container .profile3 aside,
+main section .third-container .profile4 aside,
+main section .third-container .profile5 aside,
+main section .fourth-container .profile aside,
+main section .fourth-container .profile2 aside,
+main section .fourth-container .profile3 aside,
+main section .fourth-container .profile4 aside,
+main section .fourth-container .profile5 aside,
+main section .forth-container .profile aside,
+main section .forth-container .profile2 aside,
+main section .forth-container .profile3 aside,
+main section .forth-container .profile4 aside,
+main section .forth-container .profile5 aside,
+main section .fifth-container .profile aside,
+main section .fifth-container .profile2 aside,
+main section .fifth-container .profile3 aside,
+main section .fifth-container .profile4 aside,
+main section .fifth-container .profile5 aside {
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  color: white;
+}
+main section .first-container .profile aside .verified,
+main section .first-container .profile aside .verified2,
+main section .first-container .profile aside .verified4,
+main section .first-container .profile2 aside .verified,
+main section .first-container .profile2 aside .verified2,
+main section .first-container .profile2 aside .verified4,
+main section .first-container .profile3 aside .verified,
+main section .first-container .profile3 aside .verified2,
+main section .first-container .profile3 aside .verified4,
+main section .first-container .profile4 aside .verified,
+main section .first-container .profile4 aside .verified2,
+main section .first-container .profile4 aside .verified4,
+main section .first-container .profile5 aside .verified,
+main section .first-container .profile5 aside .verified2,
+main section .first-container .profile5 aside .verified4,
+main section .second-container .profile aside .verified,
+main section .second-container .profile aside .verified2,
+main section .second-container .profile aside .verified4,
+main section .second-container .profile2 aside .verified,
+main section .second-container .profile2 aside .verified2,
+main section .second-container .profile2 aside .verified4,
+main section .second-container .profile3 aside .verified,
+main section .second-container .profile3 aside .verified2,
+main section .second-container .profile3 aside .verified4,
+main section .second-container .profile4 aside .verified,
+main section .second-container .profile4 aside .verified2,
+main section .second-container .profile4 aside .verified4,
+main section .second-container .profile5 aside .verified,
+main section .second-container .profile5 aside .verified2,
+main section .second-container .profile5 aside .verified4,
+main section .third-container .profile aside .verified,
+main section .third-container .profile aside .verified2,
+main section .third-container .profile aside .verified4,
+main section .third-container .profile2 aside .verified,
+main section .third-container .profile2 aside .verified2,
+main section .third-container .profile2 aside .verified4,
+main section .third-container .profile3 aside .verified,
+main section .third-container .profile3 aside .verified2,
+main section .third-container .profile3 aside .verified4,
+main section .third-container .profile4 aside .verified,
+main section .third-container .profile4 aside .verified2,
+main section .third-container .profile4 aside .verified4,
+main section .third-container .profile5 aside .verified,
+main section .third-container .profile5 aside .verified2,
+main section .third-container .profile5 aside .verified4,
+main section .fourth-container .profile aside .verified,
+main section .fourth-container .profile aside .verified2,
+main section .fourth-container .profile aside .verified4,
+main section .fourth-container .profile2 aside .verified,
+main section .fourth-container .profile2 aside .verified2,
+main section .fourth-container .profile2 aside .verified4,
+main section .fourth-container .profile3 aside .verified,
+main section .fourth-container .profile3 aside .verified2,
+main section .fourth-container .profile3 aside .verified4,
+main section .fourth-container .profile4 aside .verified,
+main section .fourth-container .profile4 aside .verified2,
+main section .fourth-container .profile4 aside .verified4,
+main section .fourth-container .profile5 aside .verified,
+main section .fourth-container .profile5 aside .verified2,
+main section .fourth-container .profile5 aside .verified4,
+main section .forth-container .profile aside .verified,
+main section .forth-container .profile aside .verified2,
+main section .forth-container .profile aside .verified4,
+main section .forth-container .profile2 aside .verified,
+main section .forth-container .profile2 aside .verified2,
+main section .forth-container .profile2 aside .verified4,
+main section .forth-container .profile3 aside .verified,
+main section .forth-container .profile3 aside .verified2,
+main section .forth-container .profile3 aside .verified4,
+main section .forth-container .profile4 aside .verified,
+main section .forth-container .profile4 aside .verified2,
+main section .forth-container .profile4 aside .verified4,
+main section .forth-container .profile5 aside .verified,
+main section .forth-container .profile5 aside .verified2,
+main section .forth-container .profile5 aside .verified4,
+main section .fifth-container .profile aside .verified,
+main section .fifth-container .profile aside .verified2,
+main section .fifth-container .profile aside .verified4,
+main section .fifth-container .profile2 aside .verified,
+main section .fifth-container .profile2 aside .verified2,
+main section .fifth-container .profile2 aside .verified4,
+main section .fifth-container .profile3 aside .verified,
+main section .fifth-container .profile3 aside .verified2,
+main section .fifth-container .profile3 aside .verified4,
+main section .fifth-container .profile4 aside .verified,
+main section .fifth-container .profile4 aside .verified2,
+main section .fifth-container .profile4 aside .verified4,
+main section .fifth-container .profile5 aside .verified,
+main section .fifth-container .profile5 aside .verified2,
+main section .fifth-container .profile5 aside .verified4 {
+  color: hsl(0deg, 0%, 100%);
+  opacity: 50%;
+  font-size: 0.8rem;
+}
+main section .first-container .first-testimonial,
+main section .first-container .second-testimonial,
+main section .first-container .third-testimonial,
+main section .first-container .fourth-testimonial,
+main section .first-container .fifth-testimonial,
+main section .second-container .first-testimonial,
+main section .second-container .second-testimonial,
+main section .second-container .third-testimonial,
+main section .second-container .fourth-testimonial,
+main section .second-container .fifth-testimonial,
+main section .third-container .first-testimonial,
+main section .third-container .second-testimonial,
+main section .third-container .third-testimonial,
+main section .third-container .fourth-testimonial,
+main section .third-container .fifth-testimonial,
+main section .fourth-container .first-testimonial,
+main section .fourth-container .second-testimonial,
+main section .fourth-container .third-testimonial,
+main section .fourth-container .fourth-testimonial,
+main section .fourth-container .fifth-testimonial,
+main section .forth-container .first-testimonial,
+main section .forth-container .second-testimonial,
+main section .forth-container .third-testimonial,
+main section .forth-container .fourth-testimonial,
+main section .forth-container .fifth-testimonial,
+main section .fifth-container .first-testimonial,
+main section .fifth-container .second-testimonial,
+main section .fifth-container .third-testimonial,
+main section .fifth-container .fourth-testimonial,
+main section .fifth-container .fifth-testimonial {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main section .first-container .first-testimonial p,
+main section .first-container .second-testimonial p,
+main section .first-container .third-testimonial p,
+main section .first-container .fourth-testimonial p,
+main section .first-container .fifth-testimonial p,
+main section .second-container .first-testimonial p,
+main section .second-container .second-testimonial p,
+main section .second-container .third-testimonial p,
+main section .second-container .fourth-testimonial p,
+main section .second-container .fifth-testimonial p,
+main section .third-container .first-testimonial p,
+main section .third-container .second-testimonial p,
+main section .third-container .third-testimonial p,
+main section .third-container .fourth-testimonial p,
+main section .third-container .fifth-testimonial p,
+main section .fourth-container .first-testimonial p,
+main section .fourth-container .second-testimonial p,
+main section .fourth-container .third-testimonial p,
+main section .fourth-container .fourth-testimonial p,
+main section .fourth-container .fifth-testimonial p,
+main section .forth-container .first-testimonial p,
+main section .forth-container .second-testimonial p,
+main section .forth-container .third-testimonial p,
+main section .forth-container .fourth-testimonial p,
+main section .forth-container .fifth-testimonial p,
+main section .fifth-container .first-testimonial p,
+main section .fifth-container .second-testimonial p,
+main section .fifth-container .third-testimonial p,
+main section .fifth-container .fourth-testimonial p,
+main section .fifth-container .fifth-testimonial p {
+  color: hsl(0deg, 0%, 100%);
+  opacity: 40%;
+  font-size: 0.9rem;
+}
+main .second-section {
+  background-color: hsl(217deg, 19%, 35%);
+}
+main .third-section,
+main .fifth-section {
+  background-color: hsl(0deg, 0%, 100%);
+}
+main .third-section h2,
+main .fifth-section h2 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: hsl(219deg, 29%, 14%);
+}
+main .third-section .third-container .profile3 p,
+main .third-section .third-container .profile5 p,
+main .third-section .fifth-container .profile3 p,
+main .third-section .fifth-container .profile5 p,
+main .fifth-section .third-container .profile3 p,
+main .fifth-section .third-container .profile5 p,
+main .fifth-section .fifth-container .profile3 p,
+main .fifth-section .fifth-container .profile5 p {
+  color: hsl(219deg, 29%, 14%);
+}
+main .third-section .third-container .profile3 .verified3,
+main .third-section .third-container .profile3 .verified5,
+main .third-section .third-container .profile5 .verified3,
+main .third-section .third-container .profile5 .verified5,
+main .third-section .fifth-container .profile3 .verified3,
+main .third-section .fifth-container .profile3 .verified5,
+main .third-section .fifth-container .profile5 .verified3,
+main .third-section .fifth-container .profile5 .verified5,
+main .fifth-section .third-container .profile3 .verified3,
+main .fifth-section .third-container .profile3 .verified5,
+main .fifth-section .third-container .profile5 .verified3,
+main .fifth-section .third-container .profile5 .verified5,
+main .fifth-section .fifth-container .profile3 .verified3,
+main .fifth-section .fifth-container .profile3 .verified5,
+main .fifth-section .fifth-container .profile5 .verified3,
+main .fifth-section .fifth-container .profile5 .verified5 {
+  opacity: 50%;
+}
+main .third-section .third-container .third-testimonial p,
+main .third-section .third-container .fifth-testimonial p,
+main .third-section .fifth-container .third-testimonial p,
+main .third-section .fifth-container .fifth-testimonial p,
+main .fifth-section .third-container .third-testimonial p,
+main .fifth-section .third-container .fifth-testimonial p,
+main .fifth-section .fifth-container .third-testimonial p,
+main .fifth-section .fifth-container .fifth-testimonial p {
+  color: hsl(219deg, 29%, 14%);
+}
+main .fourth-section {
+  background-color: hsl(219deg, 29%, 14%);
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 4rem 4rem;
+  }
+  main .first-section {
+    grid-column: 1/3;
+  }
+}
+@media screen and (min-width: 1360px) {
+  main {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 5rem;
+  }
+  main .first-section {
+    grid-column: 1/3;
+  }
+  main .third-section {
+    grid-row: 2;
+  }
+  main .fourth-section {
+    grid-column: 2/4;
+  }
+  main .fifth-section {
+    grid-row: 1/3;
+    grid-column: 4;
+  }
+}
+@media screen and (min-width: 1440px) {
+  main {
+    padding: 10rem;
+  }
+  main section h2 {
+    font-size: 1.25rem;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: hsl(210deg, 46%, 95%);
+  font-family: "Barlow Semi Condensed", sans-serif;
+}/*# sourceMappingURL=styles.css.map */
